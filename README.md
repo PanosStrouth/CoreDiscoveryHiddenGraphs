@@ -3,6 +3,7 @@ Apart from the source code there are also the prebuilt binaries so that you can 
 You can follow the examples shown below:  
 
 
+  
 ## GSOE  
 Given an undirected hidden graph and an integer K , GSOE discovers the top-K degree nodes without performing all probings among the graph nodes.
 For using our GSOE implementation you have to navigate to the CoreDiscoveryHiddenGraphs/GSOE folder and use the GSOE executable file. The GSOE executable can be used as follows:  
@@ -25,6 +26,7 @@ This means that the algorithm needs 10 probings. Since the testgraph has 6 nodes
 (6 * 5) / 2 = 15 . As a result the algorithm has a 5 probings gain!  
   
   
+  
 ## HiddenCore  
 Given an undirected hidden graph and an integer K, HiddenCore returns true of false in case there is or there is not a K-Core in the hidden network respectively.
 For using our HiddenCore implementation you have to navigate to the CoreDiscoveryHiddenGraphs/HiddenCore folder and use the HiddenCore executable file. The HiddenCore executable can be used as follows:  
@@ -40,6 +42,7 @@ You will see the following:
 Core 3 not found after 12 probings!
 ``` 
 This means that the algorithm needs 12 probings to identify that there's no 3-Core in the graph. Since the testgraph has 6 nodes the maximum number of probings is (6 * 5) / 2 = 15 . As a result the algorithm has a 3 probings gain!  
+  
   
   
 ## Important Note:  
