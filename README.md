@@ -7,7 +7,7 @@ You can follow the examples shown below:
 Given an undirected hidden graph and an integer K , GSOE discovers the top-K degree nodes without performing all probings among the graph nodes.
 For using our GSOE implementation you have to navigate to the CoreDiscoveryHiddenGraphs/GSOE folder and use the GSOE executable file. The GSOE executable can be used as follows:  
 ```bash
-GSOE undirectedGraphFile K
+./GSOE undirectedGraphFile K
 ```  
 There's already a small undirected graph in the GSOE directory , called "testgraph.txt". So for example, in order to find the node with the highest degree in this graph (K=1) you should type in your terminal:  
 ```bash
@@ -29,7 +29,7 @@ This means that the algorithm needs 10 probings. Since the testgraph has 6 nodes
 Given an undirected hidden graph and an integer K, HiddenCore returns true of false in case there is or there is not a K-Core in the hidden network respectively.
 For using our HiddenCore implementation you have to navigate to the CoreDiscoveryHiddenGraphs/HiddenCore folder and use the HiddenCore executable file. The HiddenCore executable can be used as follows:  
 ```bash
-HiddenCore undirectedGraphFile K
+./HiddenCore undirectedGraphFile K
 ```  
 There's already a small undirected graph in the HiddenCore directory , called "testgraph.txt". So for example, in order to check if there's a 3-Core (K==3) in the graph file open a terminal and type:  
 ```bash
