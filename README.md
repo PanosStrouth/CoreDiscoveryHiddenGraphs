@@ -26,8 +26,8 @@ This means that the algorithm needs 10 probings. Since the testgraph has 6 nodes
 (6 * 5) / 2 = 15 . As a result the algorithm has a 5 probings gain!  
   
   
-< br />
-< br />  
+<br/>
+<br/>  
 ## HiddenCore  
 Given an undirected hidden graph and an integer K, HiddenCore returns true of false in case there is or there is not a K-Core in the hidden network respectively.
 For using our HiddenCore implementation you have to navigate to the CoreDiscoveryHiddenGraphs/HiddenCore folder and use the HiddenCore executable file. The HiddenCore executable can be used as follows:  
