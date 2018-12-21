@@ -1,6 +1,6 @@
 In this repository you can find 2 C++ implementations for discovering TOP-K degree nodes and K-Cores in a Hidden Network.
 Apart from the source code there are also the prebuilt binaries so that you can directly use/test the algorithms.
-You can follow the examples shown below:
+You can follow the examples shown below:  
 
 
 ## GSOE  
