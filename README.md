@@ -1,10 +1,10 @@
-In this repository you can find 2 C++ implementations for discovering TOP-K degreeS and K-Cores in a Hidden Network.
+In this repository you can find 2 C++ implementations for discovering TOP-K degree nodes and K-Cores in a Hidden Network.
 Apart from the source code there are also the prebuilt binaries so that you can directly use/test the algorithms.
 You can follow the examples shown below:
 
 
 ## GSOE  
-GSOE is an algorithm that, given an undirected hidden graph and an integer K , discovers the top-K degree nodes without performing all probings among graph nodes.
+Given an undirected hidden graph and an integer K , GSOE discovers the top-K degree nodes without performing all probings among the graph nodes.
 For using our GSOE implementation you have to navigate to the CoreDiscoveryHiddenGraphs/GSOE folder and use the GSOE executable file. The GSOE executable can be used as follows:  
 ```bash
 GSOE undirectedGraphFile K
@@ -26,7 +26,7 @@ This means that the algorithm needs 10 probings. Since the testgraph has 6 nodes
   
   
 ## HiddenCore  
-HiddenCore is an algorithm, that given an undirected hidden graph and an integer K, returns true of false in case there is or there is not a K-Core in the hidden network respectively.
+Given an undirected hidden graph and an integer K, HiddenCore returns true of false in case there is or there is not a K-Core in the hidden network respectively.
 For using our HiddenCore implementation you have to navigate to the CoreDiscoveryHiddenGraphs/HiddenCore folder and use the HiddenCore executable file. The HiddenCore executable can be used as follows:  
 ```bash
 HiddenCore undirectedGraphFile K
