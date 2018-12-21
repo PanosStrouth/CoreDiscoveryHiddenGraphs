@@ -49,6 +49,6 @@ An example of a proper undirected graph is the following:
 2 0  
 1 2  
 2 1  
-Note that having each undirected edge is represented by two rows:  
+Note that each undirected edge is represented by two rows in the file:  
 x y  
 y x  
