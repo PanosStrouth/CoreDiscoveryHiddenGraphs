@@ -1,9 +1,8 @@
 In this repository you can find 2 C++ implementations for discovering TOP-K degree nodes and K-Cores in a Hidden Network.
 Apart from the source code there are also the prebuilt binaries so that you can directly use/test the algorithms.
 You can follow the examples shown below:  
-
-
-  
+<br/>
+<br/>
 ## GSOE  
 Given an undirected hidden graph and an integer K , GSOE discovers the top-K degree nodes without performing all probings among the graph nodes.
 For using our GSOE implementation you have to navigate to the CoreDiscoveryHiddenGraphs/GSOE folder and use the GSOE executable file. The GSOE executable can be used as follows:  
@@ -41,9 +40,8 @@ You will see the following:
 Core 3 not found after 12 probings!
 ``` 
 This means that the algorithm needs 12 probings to identify that there's no 3-Core in the graph. Since the testgraph has 6 nodes the maximum number of probings is (6 * 5) / 2 = 15 . As a result the algorithm has a 3 probings gain!  
-  
-  
-  
+<br/>
+<br/>
 ## Important Note:  
 The input graph file (the first argument of the executable) should be an undirected graph where the first node is 0.  
 An example of a proper undirected graph is the following:  
