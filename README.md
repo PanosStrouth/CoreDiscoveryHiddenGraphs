@@ -23,8 +23,8 @@ Maximum number of probings: 15
 ```  
 This means that the algorithm needs 10 probings. Since the testgraph has 6 nodes the maximum number of probings is  
 (6 * 5) / 2 = 15 . As a result the algorithm has a 5 probings gain!  
-
-
+  
+  
 ## HiddenCore  
 HiddenCore is an algorithm, that given an undirected hidden graph and an integer K, returns true of false in case there is or there is not a K-Core in the hidden network respectively.
 For using our HiddenCore implementation you have to navigate to the CoreDiscoveryHiddenGraphs/HiddenCore folder and use the HiddenCore executable file. The HiddenCore executable can be used as follows:  
@@ -40,8 +40,17 @@ You will see the following:
 Core 3 not found after 12 probings!
 ``` 
 This means that the algorithm needs 12 probings to identify that there's no 3-Core in the graph. Since the testgraph has 6 nodes the maximum number of probings is (6 * 5) / 2 = 15 . As a result the algorithm has a 3 probings gain!  
-
-## Comments:
-
-
-## Important Note:
+  
+  
+## Important Note:  
+The input graph file (the first argument of the executable) should be an undirected graph where the first node is 0.  
+An example of a proper undirected graph is the following:  
+0 1  
+1 0  
+0 2  
+2 0  
+1 2  
+2 1  
+Note that having each undirected edge is represented by two rows:  
+x y  
+y x  
